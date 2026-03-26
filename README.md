@@ -20,10 +20,10 @@ In the terminal, predict.py is best called with:
 ```bash
 cd python predict.py ./flowers/test/11/image_03098.jpg ./save_directory/checkpoint.pth -g
 ```
-with cd being the directory in which predict.py is in.
+with `cd` being the directory in which `predict.py` is in.
 
-with ./flowers/test/11/image_03098.jpg being the path to the image we'd like to predict.
+with `./flowers/test/11/image_03098.jpg` being the path to the image we'd like to predict.
 
-with ./save_directory/checkpoint.pth being the path to the checkpoint we saved in train.py.
+with `./save_directory/checkpoint.pth` being the path to the checkpoint we saved in `train.py`.
 
-with -g representing the GPU connection so that everything runs faster.
+with `-g` representing the GPU connection so that everything runs faster.
